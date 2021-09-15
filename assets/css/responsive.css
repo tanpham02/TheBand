@@ -1,0 +1,142 @@
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #content .content-section {
+        max-width: 100%;
+        /* khi xuống ipad màn hình còn 768px nhưng width khi cho ở pc là 800 nên vượt quá, phải cho chiều ngang tối đa là 100%  */
+    }
+
+    .modal-container {
+        width: 644px;
+        margin-bottom: 465px;
+        animation: modalFadeIn ease 0.4s;
+    }
+
+    .buy-ticket-botton {
+        padding: 15px 16px;
+    }
+
+    .botton-send {
+        padding: 15px 16px;
+    }
+}
+
+/* Tablet and Mobile */
+@media only screen and (max-width: 63.9375em) {
+    #nav .subnav a {
+        padding: 4px 12px;
+    }
+
+    .contact-place {
+        line-height: 2;
+    }
+
+    .cont-sub {
+        padding: 14px 8px;
+    }
+
+    .footer-ic {
+        font-size: 28px;
+        margin: 0 4px;
+    }
+
+    .powered-text {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .contact-place > a {
+        text-decoration: none;
+        color: #3022d2;   
+        opacity: 0.8;
+    }
+    
+    .contact-place > a:hover {
+        opacity: 1;
+    }  
+}
+
+/* Mobile: width < 740px  (max-width: 739px)*/
+@media only screen and (max-width: 46.1875em){
+    #header {
+       overflow: hidden;
+    }
+
+    #nav,
+    #nav li,
+    #nav li a {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+  
+    /* cũng có thể dùng #nav > li:nth-of-type(1)  */
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+       
+  
+    #header .search-button {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #content .about-text {
+        line-height: 1.4;
+    }
+
+    #content .member-item {
+        width: 100%;
+        padding: initial;
+    }
+
+    #content .member-img {
+        width: 60%;
+        margin-bottom: 16px;
+    }
+
+    .place-item {
+        width: 100%;
+    }
+  
+    .contact-item {
+        width: 100%;
+        margin-bottom: 32px
+    }
+
+    .text-name,
+    .text-email {
+        width: 100%;
+    }
+
+    .text-email {
+        margin: 8px 0;
+    }
+
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .buy-ticket-botton {
+        text-align: center;
+        padding: 15px 16px;
+    }
+   
+    .botton-send {
+        padding: 15px 16px;
+    }
+}
