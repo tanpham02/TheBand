@@ -89,7 +89,7 @@ ul{
 #nav li a{
     
     text-decoration: none; /* bỏ gạch chân  */
-    line-height: 46px; /* dùng để căn chữ nằm giữa(dùng bằng chiều dài cẩu khối */
+    line-height: 50px; /* dùng để căn chữ nằm giữa(dùng bằng chiều dài cẩu khối */
     padding: 0 24px;
     display:inline-block;
 }
